@@ -1,0 +1,16 @@
+.form{
+    margin:10vh;
+    display:flex;
+    flex-direction: column;
+    background-color: aqua;
+    align-items:baseline;
+    height: 6em;
+}
+
+.p{
+    color: red;
+}
+
+.boton{
+  width: 5em;
+}

@@ -1,0 +1,12 @@
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+   position:relative;
+   justify-content: space-evenly;
+   
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+ 
+
+.div{
+  background-color:black;
+  font-family:Creepster;
+    font-size: 1.3em;
+    border-style:groove;
+    border-width: 20px;
+    border-color: chartreuse;
+    color:chartreuse;
+   /*text-shadow: black 3px 5px 6px;*/
+   text-shadow: black 8px 10px 4px; 
+  position:relative;
+  height: 11.1em;
+  width: 10em;
+ 
+}
+.div:hover{ 
+
+ top:10px;
+ z-index:5;
+
+ 
+}
+
+.div2{display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+}
+.div3{height: 2em;
+       overflow:hidden;
+   
+}
+.div3:hover{ height: auto;
+   color:black;
+   text-shadow: chartreuse 8px 10px 4px; 
+   position:absolute;
+   width: 10em;
+   border-left: 20px groove chartreuse;
+   border-right: 20px groove chartreuse;
+   border-bottom: 20px groove chartreuse;
+   left:-20px;
+   background-color: aliceblue;
+}
+.img{
+  
+    width: 97%;
+    height: 50%;
+    border-radius: 100%;
+    border-style: groove;
+    border-color: darkgray;
+  /* box-shadow: rgb(150,150,150) 5px 5px;*/
+    box-shadow: rgb(73, 112, 33) 3px 25px  50px ;
+}
+
+.name{ 
+    position:absolute;
+    bottom:0px;
+    text-align: center;  
+   
+}
+.name:hover{
+  color:black;
+  text-shadow: chartreuse 8px 10px 4px; 
+
+}
+
+
+ .flecha{
+    height:2em;
+ }
+
+ .div1{
+    display: flex;
+ }
+ .boton{
+    margin-left: auto;
+    border-radius: 12%;
+    border-style: groove;
+    border-color: chartreuse;
+    border-width: 0.2em;
+    padding: 0em 0.7em 0em 0.7em;
+    
+   
+    font-family:Creepster;
+    font-size: 0.8em;
+ }
+ 
+ .cora{
+  position:absolute;
+  left: 0px;
+ }

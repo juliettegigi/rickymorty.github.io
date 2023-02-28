@@ -1,0 +1,16 @@
+.div1{
+  margin-top: 5em;
+  height: 500px;
+}
+
+.image{
+    float:left;
+    margin-right: 2em;
+}
+
+.div2{
+    text-align: left;
+    padding-top: 1em;
+    word-spacing:0.5em;
+   
+}
